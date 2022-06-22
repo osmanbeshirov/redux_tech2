@@ -1,0 +1,23 @@
+1. npm install redux react-redux
+2. create redux folder in src
+3. create index.js file in redux folder{
+    4. import createStore in index.js(redux)
+    5. export const store = createStore(reducer)
+}
+6. go to main index.js and import store and provider
+7. Provider maintain to App tag and bring to props store
+8. create reducers and actions folders in redux folder
+9. create index.js in reducers folder and custom reducerFile.js
+10. import import { combineReducers } from "redux"; in index.js(reducers)
+11. declare combineReducers just like simple function
+12. create your custom reducer.js file in reducers folder{
+    13.declare your custom initalState
+    14.create custom reducer function
+}
+15. go to any component and use your reducer {
+    16.import useSelector from react-redux
+    17. create useSelector function which have maintained state
+}
+
+
+
