@@ -1,3 +1,5 @@
+
+
 const initialProducts = ['book', 'phone', 'car', 'key'];
 
 
@@ -9,12 +11,12 @@ export const productReducer = (state = initialProducts, action) => {
         }
 
         case "FILTER": {
-            const yeni = [...state]
-            const newState = yeni.filter((item) => {
-                return item.length > 3
-            })
+            return action.payload;
 
-            return newState;
+        }
+
+        case "EMPTY": {
+            return action.payload;
         }
 
 
