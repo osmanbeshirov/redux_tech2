@@ -7,7 +7,7 @@ const Parent = () => {
 
   const result = useSelector((state) => state.students)
 
-  console.log(result)
+  // console.log(result)
 
 
   return (
